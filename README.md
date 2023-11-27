@@ -71,3 +71,12 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Tempo de Experiência
+
+Sou um desenvolvedor java em busca de oportunidades para aplicar habilidades em desenvolvimento
+para contribuir em novas soluções robustas e eficientes em outras linguagens. Tenho trabalhado a 2 anos como
+desenvolvedor Java e estou a procura de migraçao de tecnlogia, tenho aprendido faz um mês sobre backend com node, mas tenho
+experiencia com backendo em java e percebi que são muito similar ao nest, então acredito que posso ser um grande contribuidor 
+nesta oportunidade.
+.

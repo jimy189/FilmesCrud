@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "0ae5d0f4-311a-4c6e-9ef5-795e787520bc",
+		"name": "CrudFilmes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19002117"
+	},
+	"item": [
+		{
+			"name": "Get Filme",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/filmes/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"filmes",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post filme",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Coringa 2\",\r\n    \"categoria\": \"Ação\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/filmes/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"filmes",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Filmes",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Coringa Modificado 2\",\r\n    \"categoria\": \"Ação Modificado 2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/filmes/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"filmes",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Filmes",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/filmes/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"filmes",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
